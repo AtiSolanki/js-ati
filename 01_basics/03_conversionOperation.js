@@ -46,7 +46,7 @@ let str1 = "hello"
 let str2 = "hitesh"
 
 let str3 = str1 + str2
-console.log(str3);
+// console.log(str3);
 
 // console.log("1" + 2);
 // console.log(1 + "2");
@@ -62,6 +62,7 @@ let num1, num2, mum3
 
 num1 = num2 = num3 = 2+2
 
-const profile = {
-
-}
+let gameCountor =100
+// gameCountor++
+++gameCountor
+console.log(gameCountor);
