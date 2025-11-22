@@ -14,7 +14,7 @@ const anotherId  = Symbol('123')
 
 console.log(id === anotherId);
 
-const bigNumber = 334467456756756767678n  // Bigint
+//const bigNumber = 334467456756756767678n  // Bigint
 
 
 /* _________________________________________________________________________________________________ */
@@ -25,3 +25,17 @@ const bigNumber = 334467456756756767678n  // Bigint
 
 
 const heros = ["shaktiman", "naagraj", "doga"]
+
+let myObj ={
+    name: "virat",
+    age: 22,
+}
+
+// function() {}  // function syntex
+
+const myFunction = function() {         // function store in variable
+ console.log("hello world");
+
+}
+
+console.log(typeof bigNumber);
