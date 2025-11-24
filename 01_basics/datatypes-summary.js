@@ -39,3 +39,30 @@ const myFunction = function() {         // function store in variable
 }
 
 console.log(typeof bigNumber);
+console.log(typeof anotherId);
+
+
+// Two Type Of Memory 
+// ist Stack (Primitive)
+// Heap (Non- Primitive)
+
+let myName ="atulsolanki"
+
+let anotherName = myName
+anotherName= "helloatul"
+
+console.log(anotherName);
+
+console.log(myName);
+
+let userOne = {
+    email: "abc@googl.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email= "hello@gmail.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
